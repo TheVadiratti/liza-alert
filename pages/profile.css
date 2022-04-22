@@ -23,3 +23,13 @@
 @import url(../blocks/account-info/_perk-icon/account-info_perk-icon.css);
 
 @import url(../blocks/account-info/_button/account-info_button.css);
+
+@import url(../blocks/profile-cards/profile-cards.css);
+@import url(../blocks/profile-card/profile-card.css);
+@import url(../blocks/personal-card/personal-card.css);
+@import url(../blocks/personal-card/__field-name/personal-card__field-name.css);
+@import url(../blocks/personal-card/__fieldset/personal-card__fieldset.css);
+@import url(../blocks/personal-card/__input/personal-card__input.css);
+@import url(../blocks/personal-card/__input-field/personal-card__input-field.css);
+@import url(../blocks/personal-card/__title/personal-card__title.css);
+@import url(../blocks/account/account.css);

@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="./pages/profile.css">
   <title>Профиль</title>
 </head>
-<body class="page">
-  <main class="content">
-    <h1 class="content_title">Профиль</h1>
-    <div class="account-info card">
+<body class="page border">
+  <main class="content border">
+    <h1 class="content_title border">Профиль</h1>
+    <div class="account-info card border">
       <img src="./images/portrait.png" alt="Аватарка пользователя" class="account-info_avatar">
       <h2 class="account-info_name">Иванова Анна Сидоровна</h2>
       <ul class="account-info_perk-list">
@@ -28,6 +28,64 @@
       <svg class="account-info_button-icon" width="17" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M.5 10a1 1 0 0 0 1 1h7.59l-2.3 2.29a1 1 0 0 0 .325 1.639 1 1 0 0 0 1.095-.219l4-4a1 1 0 0 0 .21-.33 1 1 0 0 0 0-.76 1 1 0 0 0-.21-.33l-4-4a1.004 1.004 0 1 0-1.42 1.42L9.09 9H1.5a1 1 0 0 0-1 1Zm13-10h-10a3 3 0 0 0-3 3v3a1 1 0 0 0 2 0V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-10a1 1 0 0 1-1-1v-3a1 1 0 1 0-2 0v3a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3Z" fill="#F60"/></svg>
         Выйти из аккаунта</button>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Список карточек профиля -->
+    <ul class="profile-cards ">
+    
+      <!-- Элементы списка карточек профиля -->
+      <li class="profile-card ">
+        
+        <!-- Карточка личных данных -->
+        <div class="personal-card card ">
+
+          <!-- Наполнение карточки личных данных -->
+          <h2 class="personal-card__title ">Личные данные</h2> 
+          <fieldset class="personal-card__input "> 
+              <label for="username" class="personal-card__field-name">ФИО</label>
+              <input type="text" class="personal-card__fieldset" id="username" placeholder="ФИО" required> <!-- После подключение js данные будут вставляться данные профиля, т.к. все поля обязательны для заполнениядобавляем атрибут required -->
+              
+              <label for="birthday" class="personal-card__field-name">Дата рождения</label>
+              <input type="text" class="personal-card__fieldset" id="birthday" placeholder="Дата рождения" required> 
+              
+              <label for="region" class="personal-card__field-name">Географический регион</label>
+              <input type="text" class="personal-card__fieldset" id="region" placeholder="Географический регион" required> 
+              
+              <label for="nickname" class="personal-card__field-name">Позывной на форуме</label>
+              <input type="text" class="personal-card__fieldset" id="nickname" placeholder="Позывной на форуме" required> 
+              
+              <label for="photo" class="personal-card__field-name">Фото</label>
+              <input type="text" class="personal-card__fieldset" id="photo" placeholder="Фото" required> 
+          </fieldset>
+          <button>Сохранить изменения</button>
+        </div>
+      </li>
+
+
+
+
+      <!-- Элементы списка карточек профиля -->
+      <li class="profile-card ">
+
+        <!-- Карточка аккаунта -->
+        <div class="account card "></div>
+      </li>
+
+
+    </ul>
   </main>
 </body>
 </html>
