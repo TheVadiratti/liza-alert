@@ -1,10 +1,5 @@
-<<<<<<< HEAD:blocks/content/__title/content__title.css
 .content__title {
   margin: 24px 0 0;
-=======
-.content_title {
-  margin: 24px 0 32px;
->>>>>>> feature/header:blocks/content/_title/content_title.css
   grid-column: 1 / -1;
   font-weight: 700;
   font-size: 48px;
