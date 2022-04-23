@@ -60,6 +60,64 @@
         Выйти из аккаунта
       </button>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Список карточек профиля -->
+    <ul class="profile-cards ">
+
+      <!-- Элементы списка карточек профиля -->
+      <li class="profile-card ">
+
+        <!-- Карточка личных данных -->
+        <div class="personal-card card ">
+
+          <!-- Наполнение карточки личных данных -->
+          <h2 class="personal-card__title ">Личные данные</h2>
+          <fieldset class="personal-card__input ">
+              <label for="username" class="personal-card__field-name">ФИО</label>
+              <input type="text" class="personal-card__fieldset" id="username" placeholder="ФИО" required> <!-- После подключение js данные будут вставляться данные профиля, т.к. все поля обязательны для заполнениядобавляем атрибут required -->
+
+              <label for="birthday" class="personal-card__field-name">Дата рождения</label>
+              <input type="text" class="personal-card__fieldset" id="birthday" placeholder="Дата рождения" required>
+
+              <label for="region" class="personal-card__field-name">Географический регион</label>
+              <input type="text" class="personal-card__fieldset" id="region" placeholder="Географический регион" required>
+
+              <label for="nickname" class="personal-card__field-name">Позывной на форуме</label>
+              <input type="text" class="personal-card__fieldset" id="nickname" placeholder="Позывной на форуме" required>
+
+              <label for="photo" class="personal-card__field-name">Фото</label>
+              <input type="text" class="personal-card__fieldset" id="photo" placeholder="Фото" required>
+          </fieldset>
+          <button>Сохранить изменения</button>
+        </div>
+      </li>
+
+
+
+
+      <!-- Элементы списка карточек профиля -->
+      <li class="profile-card ">
+
+        <!-- Карточка аккаунта -->
+        <div class="account card "></div>
+      </li>
+
+
+    </ul>
   </main>
 </body>
 
