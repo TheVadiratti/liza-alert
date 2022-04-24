@@ -7,13 +7,14 @@
     flex-direction: row;
     align-self: center;
     color: #212329;
+    background: url(../../../images/pen-vector.svg) no-repeat 546px center;
+    outline: none;
 }
 
-.personal-card__input-field{
-    margin: 32px 32px 0 32px;
-
+.personal-card__fieldset:last-of-type{
+    margin-bottom: 32px;
 }
 
-.personal-card__input-field:last-of-type{
-    margin: 32px;
+.personal-card__fieldset:focus{
+    border: 1.2px solid #FF6600;
 }
