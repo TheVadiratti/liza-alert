@@ -29,3 +29,5 @@
 @import url(../blocks/course-card/__icon/course-card__icon.css);
 @import url(../blocks/course-card/__add-text/course-card__add-text.css);
 @import url(../blocks/course-card/__button/course-card__button.css);
+@import url(../blocks/profile-cards/profile-cards.css);
+@import url(../blocks/personal-card/personal-card.css);
