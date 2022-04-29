@@ -3,6 +3,7 @@
   color: #FF6600;
   border: 1.2px solid #E6E7EB;
   box-sizing: border-box;
+  transition: border-color .3s ease-in-out, color .3s ease-in-out;
 }
 
 .button_type_active-white:hover {
